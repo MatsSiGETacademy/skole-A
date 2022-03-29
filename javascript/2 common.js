@@ -4,8 +4,8 @@ updateView()
 
     function updateView(){
         const page = model.app.page;
-        if (page === 'homePage') updateHomePageView();
-        else if (page === 'menu') menu();
+        if (page === 'homePage') updatePageView();
+        else if (page === 'menu') updatePageView();
     
     }
 
@@ -27,10 +27,5 @@ updateView()
         
         ;
     }
+
     
-    
-    function menu() {
-        document.getElementById('app').innerHTML = `
-        ${createMenu()}
-        `;
-    }
