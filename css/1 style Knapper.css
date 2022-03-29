@@ -1,9 +1,8 @@
-.meunButton{
+.menuButton{
     margin:10px;
     padding: 10px;
     background-color: aquamarine;
-    border: 3px chocolate;
-    color: antiquewhite;
+    border: 3px chocolate round;
     
 }
 
