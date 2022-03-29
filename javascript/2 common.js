@@ -4,8 +4,8 @@ updateView()
 
     function updateView(){
         const page = model.app.page;
-        if (page === 'homePage') updatePageView(homePage);
-        else if (page === 'menu') updatePageView(menu);
+        if (page === 'menu') updatePageView();
+        else if (page === 'pageOne') updatePageView();
     
     }
 
@@ -18,14 +18,14 @@ updateView()
         <button class="menuButton" onclick="updatePageView()"> side 1 </button>
         <button class="menuButton" onclick="updatePageView()"> side 2 </button>
         </div>
-        `;
+        `
+        ;
     }
 
-    function updatePageView(pageValg) {
+    function updatePageView() {
         document.getElementById('app').innerHTML = /*html*/ `
         ${createMenu()}
-        `
-        
+        `  
         ;
     }
 
