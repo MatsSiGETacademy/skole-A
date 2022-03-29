@@ -13,11 +13,18 @@ updateView()
     function createMenu() {
         return /*html*/ `
         <div class="menuTop">
-        <button class="menuButton" onclick="updatePageView()"> menu </button>
-        <button class="menuButton" onclick="updatePageView()"> Hjemmesiden </button>
-        <button class="menuButton" onclick="updatePageView()"> side 1 </button>
-        <button class="menuButton" onclick="updatePageView()"> side 2 </button>
+            <button class="menuButton" onclick="updatePageView()"> menu </button>
+            <button class="menuButton" onclick="updatePageView()"> Hjemmesiden </button>
+            <button class="menuButton" onclick="updatePageView()"> side 1 </button>
+            <button class="menuButton" onclick="updatePageView()"> side 2 </button>
         </div>
+
+        <div class="leftBoxPillar">
+        </div>
+
+        <div class="rightBoxPillar">
+        </div>
+        
         `
         ;
     }
