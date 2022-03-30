@@ -15,17 +15,40 @@ HTML, body{
     border: 3rem hotpink;
     height: 4rem;
     width: 120rem;
+}
 
+.flexBoxContainer{
+    display: flex;
 }
 
 
 .leftBoxPillar{
-
-
+    display: absolute;
+    background-color: gray;
+    height: 875px;
+    width: 700px;
+    margin-right: 50px;
 }
 
 
 .rightBoxPillar{
+    display: absolute;
+    background-color: blue;
+    height: 875px;
+    width: 700px;
+    margin-left: 500px; 
+}
 
+.pictureMargin{
+    margin-top: 4rem;
+}
 
+.firstParagraph{
+    margin-left: 50px;
+    border-color: hotpink;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    height: fit-content;
 }
